@@ -31,7 +31,7 @@ function parseCSV(csvText) {
     const companies = [];
     
     for (let i = 1; i < lines.length; i++) {
-        const values = lines[i].split(',');
+        const values = lines[i].split(';');
         companies.push({
             name: values[0],
             ticker: values[1]
