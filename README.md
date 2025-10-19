@@ -112,3 +112,4 @@ Update the `INTRINIO_BASE_URL` and API endpoint in `script.js` if needed.
 - The Intrinio API has rate limits and usage restrictions
 - Some companies may have limited press release data available
 - The application is designed to be simple and functional rather than production-ready
+# PressReleasesBeta
