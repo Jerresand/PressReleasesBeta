@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "pages/api/press-releases.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/pages/api/$1"
+    }
+  ]
+}

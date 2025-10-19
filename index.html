@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Release Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Press Release Viewer</h1>
+            <p>Select a company to view their latest press releases</p>
+        </header>
+        
+        <div class="company-selector">
+            <label for="company-select">Choose a company:</label>
+            <select id="company-select">
+                <option value="">Loading companies...</option>
+            </select>
+        </div>
+        
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading press releases...</p>
+        </div>
+        
+        <div class="press-releases" id="press-releases">
+            <div class="welcome-message">
+                <h2>Welcome!</h2>
+                <p>Select a company from the dropdown above to view their press releases.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
