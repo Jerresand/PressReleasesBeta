@@ -3,5 +3,8 @@
     "api/press-releases.js": {
       "maxDuration": 30
     }
-  }
+  },
+  "buildCommand": "echo 'No build required for static site'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No dependencies to install'"
 }

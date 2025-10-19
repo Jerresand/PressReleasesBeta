@@ -1,12 +1,11 @@
 {
   "name": "press-release-viewer",
   "version": "1.0.0",
-  "description": "A web application to view press releases for companies using Intrinio API",
+  "description": "A static web application to view press releases for companies using Intrinio API",
   "main": "index.html",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step required'",
-    "start": "vercel dev"
+    "build": "echo 'Static site - no build required'",
+    "start": "echo 'Static site - serve index.html'"
   },
   "dependencies": {},
   "devDependencies": {},
